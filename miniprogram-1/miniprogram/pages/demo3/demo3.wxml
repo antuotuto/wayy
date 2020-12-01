@@ -1,0 +1,16 @@
+<!--pages/demo3/demo3.wxml-->
+
+<button type="primary" bindtap="getData">获取数据</button>
+
+<view wx:for="{{dataList}}" wx:key="index">
+  <view>{{item.title}}</view>
+  <view>点击次数:{{item.hits}}</view>
+  <view>作者:{{item.author}}</view>
+  <view>时间:{{item.time}}</view>
+  <view>标签:{{item.tabs}}</view>
+  ------------
+</view>
+
+---------------
+
+<button type="primary" bindtap="upDate">更新数据</button>

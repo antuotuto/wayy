@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/demo3/demo3",
     "pages/fond/fond",
     "pages/infor/infor",
     "pages/index/index"
