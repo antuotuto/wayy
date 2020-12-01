@@ -1,9 +1,10 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/anyu/anyu",
     "pages/demo3/demo3",
     "pages/fond/fond",
-    "pages/infor/infor",
-    "pages/index/index"
+    "pages/infor/infor"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

@@ -1,0 +1,9 @@
+<!--pages/anyu/anyu.wxml-->
+
+<form bindsubmit="btnSub">
+  <input name="title" placeholder="请输入标题"></input>
+  <!-- <input name="author" placeholder="请输入作者"></input> -->
+  <textarea name="content" placeholder="请输入内容"></textarea>
+  <button type="primary" form-type="submit">提交</button>
+  <button form-type="reset">重置</button>
+</form>

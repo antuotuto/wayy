@@ -1,3 +1,5 @@
+/* pages/anyu/anyu.wxss */
+
 page{
   background-color: #f1f3f8;
 }
