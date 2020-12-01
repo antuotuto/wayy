@@ -13,6 +13,10 @@ page{
   border-radius: 0.3rem;
 }
 
+.title{
+  color:#2f3034;
+}
+
 .author{
 
 }

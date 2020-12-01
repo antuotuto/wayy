@@ -13,7 +13,7 @@
 <view class="cardBox">
   <view wx:for="{{dataArr}}" wx:key="index" class="card">
     <!-- <view class="indexZ">{{index+1}}</view> -->
-    <view>{{item.title}}</view>
+    <view class="title">{{item.title}}</view>
     <!-- <view class="author">{{item.author}}</view> -->
     <!-- <view>{{item.content}}</view> -->
     <!-- <view>{{item.tabs}}</view> -->
