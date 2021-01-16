@@ -12,9 +12,9 @@ Page({
   // 查询数据
   getData(){
 
-    db.collection("list").where({
-      author:"杨羽"
-    }).get().then(res=>{
+    db.collection("sentence")
+    .get()
+    .then(res=>{
       dataObj:res.data
     })
 
@@ -41,7 +41,7 @@ Page({
   // 提交表单添加进数据库
   btnSub(res){
     var resVlu=res.detail.value;
-    db.collection("list").add({
+    db.collection("sentence").add({
       data:resVlu
     }).then(res=>{
       console.log(res)
@@ -51,7 +51,7 @@ Page({
 
   // 加载初始数据
   getData(){
-    db.collection("list")
+    db.collection("sentence")
     .get()
     .then(res=>{
       this.setData({
@@ -59,6 +59,7 @@ Page({
       })
     })
   },
+
 
 
   /**
